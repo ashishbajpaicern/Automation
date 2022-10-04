@@ -5,3 +5,7 @@ browser = webdriver.Chrome(
 
 browser.get(
     'https://www.seleniumhq.org/selenium-ide/docs/en/introduction/code-export/')
+
+browser.refresh()
+elem = browser.find_element('email')
+elem.click()

@@ -7,5 +7,5 @@ browser.get(
     'https://www.seleniumhq.org/selenium-ide/docs/en/introduction/code-export/')
 
 browser.refresh()
-elem = browser.find_element('email')
+elem = browser.find_element('')
 elem.click()
